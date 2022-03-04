@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ViewController.updateLabel(bt:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.navigationController?.presentedViewController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "OBD2_BLE.peripheral(_:didDiscoverCharacteristicsFor:error:):OBD2_BLE.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "inprogressCommand[0].getCommand()">
+            </PersistentString>
+            <PersistentString
+               value = "">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in ViewController.updateLabel(bt:):ViewController.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

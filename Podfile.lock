@@ -1,0 +1,44 @@
+PODS:
+  - AEOTPTextField (1.0.9)
+  - Charts (3.6.0):
+    - Charts/Core (= 3.6.0)
+  - Charts/Core (3.6.0)
+  - FittedSheets (2.4.2)
+  - FSCalendar (2.8.2)
+  - Realm (10.22.0):
+    - Realm/Headers (= 10.22.0)
+  - Realm/Headers (10.22.0)
+  - RealmSwift (10.22.0):
+    - Realm (= 10.22.0)
+  - TinyConstraints (4.0.2)
+
+DEPENDENCIES:
+  - AEOTPTextField (~> 1.0.9)
+  - Charts (~> 3.6.0)
+  - FittedSheets (~> 2.4.2)
+  - FSCalendar (~> 2.8.2)
+  - RealmSwift (~> 10.22)
+  - TinyConstraints (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - AEOTPTextField
+    - Charts
+    - FittedSheets
+    - FSCalendar
+    - Realm
+    - RealmSwift
+    - TinyConstraints
+
+SPEC CHECKSUMS:
+  AEOTPTextField: e3c2f7d0f43bc52e6cf48dd6bf0ee1ba542438dd
+  Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
+  FittedSheets: 661408776eb4ff514a31da75b3600bd7222b2b3d
+  FSCalendar: e6a2eb9c571bf0719ed797ef807e08426753c241
+  Realm: d9e4e5877095a6722145811f56fe89a531c9659d
+  RealmSwift: e4191b4b957fcfcbed23751ec65eec98f8173ab5
+  TinyConstraints: 7b7ccc0c485bb3bb47082138ff28bc33cd49897f
+
+PODFILE CHECKSUM: fe33572e44858256df91f1491f1f27dae37bc0b9
+
+COCOAPODS: 1.11.2

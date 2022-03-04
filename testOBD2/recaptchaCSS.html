@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html style="height: 100%;">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://www.google.com/recaptcha/api.js?onload=onLoad&render=explicit&hl=en" async defer></script>
+    <title></title>
+    <script type="text/javascript">
+      const post = function(value) {
+          window.webkit.messageHandlers.recaptcha.postMessage(value);
+      };
+
+      console.log = function(message) {
+          post(message);
+      };
+
+      var onLoad = function() {
+          grecaptcha.render(
+            "recaptcha",
+            {
+              sitekey: "6Ld5t2QeAAAAAK6Isb3DzErKMWK703GO0JHv6Orc",
+              callback: function(token) {
+                  post(token);
+              },
+              size: "normal"
+            }
+          );
+
+
+      };
+    </script>
+    <style>
+      div{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .center {
+        margin: auto;
+        width: 60%;
+        padding: 10px;
+        border: 3px solid green;
+      }
+      </style>
+  </head>
+  <body style="position:relative;height:100%">
+      <div id="recaptcha" class="center" style="position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      left: 50%;"> test test </div>
+  </body>
+</html>
